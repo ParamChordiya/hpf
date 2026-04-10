@@ -123,7 +123,9 @@ Study: my_xgboost_study  │  300 trials  │  best: 0.9412  │  direction: max
 
 ## Python API
 
-You can also use `hpf` directly in your code:
+You can also use `hpf` directly in your code.
+
+> **Note:** The PyPI package is `optuna-hpf` (`pip install optuna-hpf`), but the Python module is `hpf`. This is intentional — same pattern as `scikit-learn` / `sklearn`.
 
 ```python
 import optuna
