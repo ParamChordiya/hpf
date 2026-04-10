@@ -34,7 +34,7 @@ After 100+ trials, most of that space was wasted. `hpf` looks at where your best
 ## Installation
 
 ```bash
-pip install hpf
+pip install optuna-hpf
 ```
 
 Or from source:
