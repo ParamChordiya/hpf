@@ -111,11 +111,11 @@ Study: my_xgboost_study  │  300 trials  │  best: 0.9412  │  direction: max
 
 ╭─── Updated Search Space ────────────────────────────────────────────╮
 │ def objective(trial):                                               │
-│     learning_rate = trial.suggest_float("learning_rate",           │
+│     learning_rate = trial.suggest_float("learning_rate",            │
 │         0.001, 1.0, log=True)                                       │
-│     max_depth = trial.suggest_int("max_depth", 3, 9)               │
-│     n_estimators = trial.suggest_int("n_estimators", 50, 1500)     │
-│     subsample = trial.suggest_float("subsample", 0.5, 1.0)         │
+│     max_depth = trial.suggest_int("max_depth", 3, 9)                │
+│     n_estimators = trial.suggest_int("n_estimators", 50, 1500)      │
+│     subsample = trial.suggest_float("subsample", 0.5, 1.0)          │
 ╰─────────────────────────────────────────────────────────────────────╯
 ```
 
